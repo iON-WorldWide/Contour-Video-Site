@@ -1,0 +1,52 @@
+== Changelog ==
+
+= Theme Name: videocraft Theme Pro=
+
+= Version: 1.1.2 =
+
+1. Image Captcha Added.
+2. Jwplayer Added.
+3. edit video category issue fixed.
+4. Progress bar added for video upload.
+5. Video search widget is added
+
+
+= Version: 1.1.1 =
+
+1. Video Category Widget Dropdown Issue Resolve:
+
+= Version: 1.1.0 =
+
+1. Mail Function Added:
+
+If a user submits a video, Admin receives an email of pending approval. Once the admin approves the video, User gets an email that his video is made live.
+
+2. Text Domains Updated:
+
+Added translation strings on the theme to make it simple to translate the theme in any language.
+
+3. Comment Style Updated:
+
+Few styling adjustments made in the commenting system of the VideoCraft Theme.
+
+4. Style.css updated:
+
+Enhanced Visual appearance of the themes to make it look even more awesome. Fixed appearance of theme on Mobile and Tablet views.
+
+= Version: 1.0.4 =
+1.Terms And Condition Added In Signin Form.
+
+= Version: 1.0.3 =
+1.Mobile Menu Problem fixed.
+
+
+= Version: 1.0.2 =
+1.Slow loding issue fixed.
+
+= Version: 1.0.1 =
+1.ipad and iphone video problem solved.
+2.Upload button problem solved.
+
+= Version: 1.0 =
+* * videocraft Theme is created on 1/09/2012.
+                        
