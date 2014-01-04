@@ -81,6 +81,17 @@
 	}
 
 
+	/* `Grid >> Global
+	-----------------------------------*/
+
+	.grid_1, .grid_2, .grid_3, .grid_4, .grid_5, .grid_6, .grid_7, .grid_8, .grid_9, .grid_10, .grid_11, .grid_12, .grid_13, .grid_14, .grid_15, .grid_16, .grid_17, .grid_18, .grid_19, .grid_20, .grid_21, .grid_22, .grid_23, .grid_24 {
+	    display: inline;
+	    float: left;
+	    margin-left: 0px;
+	    margin-right: 0px;
+	}
+
+
 
 
 	/* #Top Strip
@@ -91,9 +102,9 @@
 	.top_strip {
 	    background:#000000;
 	    width:100%;
-	    height:40px;
+	    height:20px;
 	    z-index:99999;
-	    padding-top: 20px;
+	    padding-top: 12px;
 	    margin-bottom:0px;
 	}
 	.top_strip .menu {
@@ -109,7 +120,7 @@
 	}
 	.banner{
 	    width:100%;
-	    height:40px;
+	    height:10px;
 	    overflow:hidden;
 	    margin-left:0px;
 	}
@@ -136,6 +147,7 @@
 	    height:52px;
 	    z-index:99999;
 	    margin-bottom:0px;
+	    padding-bottom: 8px;
 	}
 	.top_strip2 .menu {
 	    float: right;
@@ -144,6 +156,7 @@
 	.top_strip2 .menu .associative_link {
 	    list-style-type: none;
 	    margin-top:12px;
+	    margin-bottom: 0px;
 	}
 	.top_strip2 .menu .associative_link ul {
 		margin-bottom: 0;
@@ -194,6 +207,7 @@
 	=========================================================*/
 	.logo {
 	    margin:0;
+	    margin-left: -3px;
 	    padding:0;
 	    padding-top:0px;
 	}
@@ -208,7 +222,7 @@
 	#menu .ddsmoothmenu li a {
 		text-transform: uppercase;
 		color: #CCC;
-		font-size: 0.917em;
+		font-size: 13px;
 		font-weight: normal;
 		text-decoration: none;
 	}
