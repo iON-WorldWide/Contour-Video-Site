@@ -335,7 +335,7 @@
 
 
 
-	/*Front page Top Vedio Wrapper
+	/*Front page Top Vidio Wrapper
 ==========================================*/
 .frontpage-content {
     padding-top:0px;
@@ -370,12 +370,30 @@ div.video_wrapper.front {
 	border-top: 0;
 }
 
+.content ul.fthumbnail li span.videobox span.views {
+	background:url(images/views.png) left center no-repeat;
+	padding-left:19px;
+	position:absolute;
+	top:28px;
+	right:12px;
+}
+
+.content ul.fthumbnail li span.videobox span.author {
+	background:url(images/author.png) left center no-repeat;
+	margin-left:16px;
+}
+
 .content_wrapper_shaddow div.frontpage-content_shaddow {
 	display:none !important:	
 }
 
 /* Video Links
 ==================================================*/
+
+.featured-post-desc h6.title {
+	padding-top: 3px;	
+	margin-bottom: 10px;
+}
 
 .featured-post-desc h6.title a {
 	color:#666666;
@@ -391,14 +409,20 @@ div.video_wrapper.front {
 
 .content ul.fthumbnail li span.videobox h6 a {
 	color:#666666;
-	line-height:14px;
-	font-size:13px;
+	line-height:12px;
+	font-size:11px;
 	font-weight:normal;
 }
 
 .content ul.fthumbnail li span.videobox h6 a:hover {
 	color:#C6D94B;
 	text-decoration: none;
+}
+
+ul.videolist1 li, ul.videolist2 li, ul.videolist3 li {
+	line-height:12px;
+	border-bottom: 0;
+	color:#CCCCCC;
 }
 
 /* Video Box
@@ -411,3 +435,54 @@ div.video_wrapper.front {
 .content ul.fthumbnail li span.videobox:hover {
     background:#fff url(images/play.png)  80px 73px no-repeat;
 }
+
+
+
+/* tab menu container
+==================================================*/
+
+.tabs .tab_menu_container ul li a {
+	font-size: 1.167em;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #CCCCCC;	
+	background: inherit;
+	border-top: 0;
+	border-left: 0;
+	border-right: 0;
+	border-bottom: 2px solid #CCC;
+	margin: 0 24px 0 0;
+	padding: 0 0 0px 0;
+	float: left;
+}
+
+.tabs .tab_menu_container ul li a.current {
+	padding: 0 0 1px 0;
+	float: left;
+	border-top: 0;
+	border-left: 0;
+	border-right: 0;
+	border-bottom: 2px solid #C5D84B !important;
+	overflow:scroll;
+	background: inherit;
+}
+
+.tabs .tab_menu_container ul li a:hover {
+	color:#000000;
+	padding: 0 0 1px 0;
+	float: left;
+	border-top: 0;
+	border-left: 0;
+	border-right: 0;
+	border-bottom: 2px solid #C5D84B !important;
+	overflow:scroll;
+	background: inherit;
+}
+
+.tabs .tab_menu_container ul {
+	width:420px;
+	background: inherit;
+	padding-bottom: 0;
+
+}
+
