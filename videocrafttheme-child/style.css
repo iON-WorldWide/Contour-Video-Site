@@ -118,15 +118,14 @@
 	    overflow:hidden;
 	    margin-top:0px;
 	}
-	.banner{
+	.top_menu{
 	    width:100%;
+	    color:#fff;
 	    height:10px;
 	    overflow:hidden;
 	    margin-left:0px;
 	}
-	.banner img{
-	    width:100%;
-	}
+
 	ul.children{
 	    margin-left:20px;
 	    margin-bottom:0;
@@ -136,7 +135,41 @@
 	    display:inline;
 	}
 
+	#menu-top.menu ul{
+		float:left;
+	}
 
+	#menu-top.menu li{
+		float:left;
+		display:block;
+		font-size:14px;
+		line-height: 14px;
+		margin-left:15px;
+		margin-bottom:0;
+		display:inline;
+	}
+
+	#menu-top.menu a{
+		color:#666666;
+		text-transform: uppercase;
+		font-size: 11px;
+	}
+
+	.menu-bar {
+		float:left;
+		height: 14px;
+		padding-top: 2px;
+	}
+
+	#menu-top.menu a:active{
+		color:#C6D94B;
+		text-decoration: none;
+	}
+
+	#menu-top.menu a:hover{
+		color:#C6D94B;
+		text-decoration: none;
+	}
 
 	/* #Top Strip2
 	================================================== */
@@ -500,3 +533,6 @@ ul.videolist1 li, ul.videolist2 li, ul.videolist3 li {
 
 }
 
+div.tabs {
+	margin-left: 25px;
+}

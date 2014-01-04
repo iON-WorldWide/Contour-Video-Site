@@ -80,14 +80,9 @@
                                 <a href="http://contour.com"><img src="<?php if (inkthemes_get_option('inkthemes_logo') != '') { ?><?php echo inkthemes_get_option('inkthemes_logo'); ?><?php } else { ?><?php echo get_template_directory_uri(); ?>/images/logo.png<?php } ?>" alt="<?php bloginfo('name'); ?>" alt="logo"/></a>
                             </div>
                         </div>
-                         <div class="grid_13">
-                            <div class="banner">
-                             <?php if ( inkthemes_get_option('inkthemes_header_banner') !='' ) {  ?>
-          <p><?php echo stripslashes(inkthemes_get_option('inkthemes_header_banner')); ?></p>
-           <?php } else { ?>
-                  <?php } ?>
-                            </div>
-                            </div>
+                        <div class="grid_13">
+                                <?php wp_nav_menu( array( 'container_class' => 'menu-bar', 'theme_location' => 'top' ) ); ?>
+                        </div>
                         <div class="grid_6 omega">
                             <div class="search_form">
                                 <form id="search_form" name="search" action="/search" class="search_form">
