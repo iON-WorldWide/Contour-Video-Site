@@ -35,7 +35,7 @@
                     
                 }
                 ?>
-    <?php } ?>		
+    <?php } ?>      
             <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
             <link rel="profile" href="http://gmpg.org/xfn/11" />
             <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
@@ -63,15 +63,15 @@
     </style>
     <![endif]-->
     <!--[if lte IE 9]>
-    		<style>
+            <style>
     .content ul.fthumbnail li span.videobox span.views {
     margin-top: -3px;
     }
-    		</style>
-    		<![endif]-->
+            </style>
+            <![endif]-->
         </head>
         <body>
-    	<div class="top_strip">
+        <div class="top_strip">
             <div class="container_24">
                 <div class="grid_24">
                     <div class="header">
@@ -100,16 +100,16 @@
             <div class="top_strip2">
                 <div class="container_24">
                     <div class="grid_24">
-    				   <div class="grid_14 alpha">
+                       <div class="grid_14 alpha">
                                 <div class="menu_container">
                                     <div class="menu_bar">
                                         <div id="MainNav">       
-    		<?php inkthemes_nav(); ?> 
+            <?php inkthemes_nav(); ?> 
                         </div>
                                     </div>
                                 </div>
                             </div>
-    					<div class="grid_10 omega">
+                        <div class="grid_10 omega">
                         <div class="menu">
                                 <?php do_action('videocast_auth_menu'); ?>
                         </div>   

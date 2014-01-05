@@ -1,4 +1,4 @@
-<?php //Opening PHP tag
+<?php
 
 add_action( 'init', 'child_theme_setup' );
 
@@ -9,4 +9,4 @@ function child_theme_setup() {
 	) );
 }
 
-?> //Closing PHP tag
+?>
