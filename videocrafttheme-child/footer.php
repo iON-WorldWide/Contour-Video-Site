@@ -15,17 +15,12 @@
     <div class="grid_24">
       <div class="footer_bottom">
         <div class="grid_10 alpha">
-         <div class="social_logo">
+         <div class="footer-social">
           <ul class="fsocialicon">
-		  <?php if (inkthemes_get_option('inkthemes_twitter') != '') { ?>
-            <li><img src="<?php echo get_template_directory_uri(); ?>/images/twitter.png" class="twittericon"><a target="_blank" href="<?php echo inkthemes_get_option('inkthemes_twitter'); ?>"><span>Twitter</span></a></li>
-			<?php } ?>  
-			<?php if (inkthemes_get_option('inkthemes_facebook') != '') { ?>
-            <li><img src="<?php echo get_template_directory_uri(); ?>/images/facebook.png" class="facebookicon"><a target="_blank" href="<?php echo inkthemes_get_option('inkthemes_facebook'); ?>">Facebook</a></li>
-			<?php } ?>  
-					   <?php if (inkthemes_get_option('inkthemes_rss') != '') { ?>
-            <li><img src="<?php echo get_template_directory_uri(); ?>/images/rss.png" class="newslettericon"><a target="_blank" href="<?php echo inkthemes_get_option('inkthemes_rss'); ?>">RSS Feed</a></li>
-				<?php } ?>
+            <li><a href="https://twitter.com/contour_cam" title="Contour on Twitter" class="icon-social twitter ir">Twitter</a></li>
+            <li><a href="http://www.facebook.com/contour" title="Contour on Facebook" class="icon-social facebook ir">Facebook</a></li>
+            <li><a href="http://www.youtube.com/contour" title="Contour on YouTube" class="icon-social youtube ir">YouTube</a></li>
+            <li><a href="http://instagram.com/contour_cam" title="Contour on Instagram" class="icon-social instagram ir">Instagram</a></li>
           </ul>
           </div>
         </div>
@@ -33,11 +28,7 @@
           <div class="copyright">
           <div class="copyrightinfo">
 		  <div class="copyrightinfo">
-               <?php if (inkthemes_get_option('inkthemes_footertext') != '') { ?>
-			<?php echo inkthemes_get_option('inkthemes_footertext'); ?>
-		<?php } else { ?>
-		  VideoCraft Theme by InkThemes.com
-		  <?php } ?>
+       Copyright &copy; <?php echo date("Y"); ?> Contour
 		  </div>
         </div>
         </div>

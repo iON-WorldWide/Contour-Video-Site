@@ -543,3 +543,119 @@ ul.videolist1 li, ul.videolist2 li, ul.videolist3 li {
 div.tabs {
 	margin-left: 25px;
 }
+
+
+/* footer
+==================================================*/
+
+
+.footer_wrapper {
+	margin: 50px 0 50px;
+	padding-top: 20px;
+	border-top: none;
+	background: #ffffff
+}
+
+.footer_wrapper .footer_topwrapper {
+	border-top: 1px solid #f0f0f0;
+	overflow: visible;
+	padding-top: 20px;
+	padding-bottom: 40px;
+}
+
+#menu-footer.footer_topmenu li {
+	float:left;
+	width:20%;
+	list-style-type: none;
+	height: 1.2em;
+	margin: 0px;
+	padding: 0px;
+	border: none;
+}
+
+#menu-footer.footer_topmenu a{
+	font-family: Lato, Helvetica, Arial, sans-serif;
+	padding:0 12px;
+	display: block;
+	color: #CCC;
+	font-size: 0.917em;
+	font-weight: normal;
+	text-decoration: none;
+	min-height: 32px;
+}
+
+#menu-footer.footer_topmenu a:hover{
+	color:#C6D94B;
+}
+
+
+.icon-social {
+    display: block;
+    float: left;
+}
+
+.icon-social {
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+.icon-social {
+    text-indent: -9999px;
+    width: 32px;
+    height: 32px;
+    opacity: 0.3;
+    filter: alpha(opacity=30);
+    background: url(images/social_icon.png) no-repeat;
+}
+
+
+.icon-social:hover {
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+}
+
+.icon-social.twitter {
+    background-position: 0 0;
+}
+
+.icon-social.facebook {
+    background-position: -50px 0;
+}
+
+.icon-social.youtube {
+    background-position: -100px 0;
+}
+
+.icon-social.atom {
+    background-position: -150px 0;
+}
+
+.icon-social.instagram {
+    background-position: -200px 0;
+}
+
+.icon-social.pinterest {
+    background-position: -250px 0;
+}
+
+.icon-social.vimeo {
+    background-position: -300px 0;
+}
+
+.icon-social.tumblr {
+    background-position: -350px 0;
+}
+
+.icon-social.google {
+    background-position: -400px 0;
+}
+
+.copyrightinfo div {
+	text-align:right; 
+	float:right; 
+	margin:15px 0 20px;
+	color: #CCC;
+	font-size: 0.917em;
+	font-weight: normal;
+	text-decoration: none; 
+}
