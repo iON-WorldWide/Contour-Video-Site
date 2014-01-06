@@ -852,8 +852,6 @@ function videocast_submit_video() {
                 <span class="upload-cheack">
                     <input type="radio" name="type" value="Youtube" checked>
                     Video From Youtube/Vimeo/Metacafe/Dailymotion</span>
-                <span class="upload-cheack"><input type="radio" name="type" value="Self" />
-                    Upload your own Video </span>
                 <br/>
                 <br/>
                 <br />

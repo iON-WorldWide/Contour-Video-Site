@@ -371,7 +371,6 @@
 		color: #000000;
 		font-weight: 300;
 		font-size: 24px;
-		line-height: 48px;
 		border-bottom: 1px solid #f0f0f0;
 	    padding-top: 9px;
 	    padding-bottom: 5px;
@@ -387,7 +386,15 @@
 	    color:#000000;
 	}
 
+	.sidebar h3.title {
+		color: #000000;
+		font-weight: 300;
+		border-bottom: 1px solid #f0f0f0;
+	}
 
+	.sidebar h3 span {
+	    background:none;
+	}
 
 	/*Front page Top Vidio Wrapper
 ==========================================*/
@@ -478,6 +485,7 @@ ul.videolist1 li, ul.videolist2 li, ul.videolist3 li {
 	border-bottom: 0;
 	color:#CCCCCC;
 }
+
 
 /* Video Box
 ==================================================*/
@@ -693,17 +701,50 @@ div.post-info {
 	right: -5px;
 }
 
+.post_content {
+	padding-right: 70px;
+}
 
+.comment_form {
+	padding-right: 70px;
+}
+
+.single_page_ratting {
+	padding-right: 70px !important;
+	position: relative !important;
+	right: 70px !important;
+}
+
+
+/* Blog Post
+==================================================*/
+
+
+.page_heading {
+	padding-right: 70px;
+}
+
+.post_content {
+	padding-right: 70px;
+}
+
+.post_meta {
+	display: none;
+}
+
+#comments {
+	padding-right: 70px;
+}
 
 
 /* post meta
 ==================================================*/
 
-video_post_meta a {
+.video_post .video_post_meta a {
 	color:#C6D94B;
 }
 
-video_post_meta a:hover {
+.video_post .video_post_meta a:hover {
 	color:#666666;
 	text-decoration: none;
 }
@@ -722,6 +763,89 @@ video_post_meta a:hover {
 
 
 
-/* post meta
+/* side bar widget videos
 ==================================================*/
+
+.sidebar .widget-post img {
+	border-radius: 0px;
+}
+
+.sidebar ul li {
+	border: none;
+}
+
+.sidebar p {
+	padding-bottom: 0;
+}
+
+.sidebar {
+	padding-left: 30px;
+}
+
+.sidebar .widget-post h6 a {
+	color: #4F4D4D;
+	line-height: 16px;
+}
+
+.sidebar .widget-post h6 a:hover {
+	color:#C6D94B;
+	text-decoration: none;
+}
+
+.sidebar ul li a:hover {
+	color:#C6D94B;
+	text-decoration: none;
+}
+
+/* sign-up form
+==================================================*/
+
+
+.signinForm input[type="submit"] {
+	border: none !important;
+	margin: 0 !important;
+	padding: 0 20px !important;
+	color: #ffffff !important;
+	font-weight: 400 !important;
+	font-size: 13px !important;
+	text-transform: none !important;
+	background: #c5d84b !important;
+	width: auto !important;
+	-webkit-border-radius: 5px !important;
+	-moz-border-radius: 5px !important;
+	border-radius: 5px !important;
+}
+
+
+.signinForm input[type="submit"]:hover {
+	background-color: #bdcf47 !important;
+	opacity: 1 !important;
+}
+
+
+#reg_form input[type="submit"] {
+	border: none !important;
+	margin: 0 !important;
+	padding: 0 20px !important;
+	color: #ffffff !important;
+	font-weight: 400 !important;
+	font-size: 13px !important;
+	text-transform: none !important;
+	background: #c5d84b !important;
+	width: auto !important;
+	-webkit-border-radius: 5px !important;
+	-moz-border-radius: 5px !important;
+	border-radius: 5px !important;
+}
+
+
+#reg_form input[type="submit"]:hover {
+	background-color: #bdcf47 !important;
+	opacity: 1 !important;
+}
+
+.signin h3 {
+	color:#000000;
+}
+
 
