@@ -659,3 +659,69 @@ div.tabs {
 	font-weight: normal;
 	text-decoration: none; 
 }
+
+
+
+/* comments
+==================================================*/
+
+#commentsbox {
+	margin-top: 55px;
+}
+
+h3#reply-title {
+	margin-left: 0;
+	margin-bottom: 10px;
+	padding-bottom: 0;
+}
+
+div.post-info {
+	display: none;
+}
+
+
+
+#l.label span {
+	display: none;
+}
+
+.post_like iframe {
+	width: 80px !important;
+}
+
+.post_like {
+	right: -5px;
+}
+
+
+
+
+/* post meta
+==================================================*/
+
+video_post_meta a {
+	color:#C6D94B;
+}
+
+video_post_meta a:hover {
+	color:#666666;
+	text-decoration: none;
+}
+
+.single_page_ratting li {
+	display: none;
+}
+.single_page_ratting span {
+	display: none;
+}
+
+
+.single_page_ratting {
+	border-bottom: none;
+}
+
+
+
+/* post meta
+==================================================*/
+
