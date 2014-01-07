@@ -411,6 +411,11 @@
 	    background:none;
 	}
 
+	.post-date {
+		color: #CCC;
+		font-size: 11px;
+	}
+
 	/*Front page Top Vidio Wrapper
 ==========================================*/
 .frontpage-content {
