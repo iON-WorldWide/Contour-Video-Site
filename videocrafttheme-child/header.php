@@ -117,4 +117,10 @@
                 </div>
             </div>
             </div>
-            <div class="clear"></div>
+            <div class="crumb-trail">
+                <div class="container_24">
+                    <div class="grid_24">
+                        <?php if ( function_exists('yoast_breadcrumb') ) {yoast_breadcrumb('<p id="breadcrumbs">','</p>');} ?>
+                    </div>
+                </div>
+            </div>
