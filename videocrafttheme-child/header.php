@@ -85,12 +85,9 @@
                         </div>
                         <div class="grid_6 omega">
                             <div class="search_form">
-                                <form id="search_form" name="search" action="/search" class="search_form">
-                                  <input type="hidden" name="type" value="video">
-                                  <input type="submit" value="Go" class="submit" class="search_form">
-                                  <input type="text" class="search_form" onfocus="if (this.value == 'Search') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Search';}"  value="Search Videos" name="s" id="s" />
-                                </form>
-                                <div class="clear"></div>
+                                <?php 
+                            video_search_form();
+                            ?>
                             </div>
                         </div>
                     </div>
