@@ -1051,3 +1051,161 @@ a.forgot_password:hover {
 .upload-section br {
 	display: none;
 }
+
+
+
+
+/* media queries
+==================================================*/
+
+
+
+
+/* This query is applied for protait ipad, Mobile
+*/
+@media only screen and (max-width: 480px) {
+	div.search_form {
+		display: none;
+	}
+	.header .menu-bar{
+		float: none;
+		margin-right: auto;
+		margin-left: auto;
+		padding: 0;
+		text-align: center;
+	}
+	.top_strip .menu {
+		float: none;
+		margin-right: auto;
+		margin-left: auto;
+		padding: 0;
+		display: inline-block;
+	}
+	.menu-bar {
+		float: none;
+		padding: 0;
+	}
+	#menu-top.menu li {
+		margin-left: 7px;
+		margin-right: 7px;
+		padding: 0;
+	}
+	div[class=content] {
+		display: none;
+	}
+	#breadcrumbs {
+		display: none;
+	}
+	.content-bar {
+		padding: 0;
+	}
+	.header .logo {
+		margin: 0 0 5px 0;
+	}
+	.top_strip2 {
+		height: 30px;
+	}
+	.top_strip2 .menu .associative_link {
+		display: inline-block;
+		margin: 0;
+	}
+	.top_strip2 .menu {
+		margin: 0;
+		text-align: center;
+	}
+	.popular_videos {
+		margin-top: -90px;
+	}
+	.video_container {
+		margin-top: 15px;
+	}
+	div.footer-social {
+		display: inline-block;
+		margin: 0;
+	}
+	.footer_bottom .copyrightinfo {
+		display: inline-block;
+		margin: 0;
+	}
+	.footer_wrapper .footer_topwrapper {
+		margin: 0;
+		padding: 0 0 10px 0;
+	}
+	#menu {
+		margin-top: 20px;
+	}
+}
+
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	div.search_form {
+		display: none;
+	}
+	.header .menu-bar{
+		float: none;
+		margin-right: auto;
+		margin-left: auto;
+		padding: 0;
+		text-align: center;
+	}
+	.top_strip .menu {
+		float: none;
+		margin-right: auto;
+		margin-left: auto;
+		padding: 0;
+		display: inline-block;
+	}
+	.menu-bar {
+		float: none;
+		padding: 0;
+	}
+	#menu-top.menu li {
+		margin-left: 7px;
+		margin-right: 7px;
+		padding: 0;
+	}
+	div[class=content] {
+		display: none;
+	}
+	#breadcrumbs {
+		display: none;
+	}
+	.content-bar {
+		padding: 0;
+	}
+	.header .logo {
+		margin: 0 0 5px 0;
+	}
+	.top_strip2 {
+		height: 30px;
+	}
+	.top_strip2 .menu .associative_link {
+		display: inline-block;
+		margin: 0;
+	}
+	.top_strip2 .menu {
+		margin: 0;
+		text-align: center;
+	}
+	.popular_videos {
+		margin-top: -90px;
+	}
+	.video_container {
+		margin-top: 15px;
+	}
+	div.footer-social {
+		display: inline-block;
+		margin: 0;
+	}
+	.footer_bottom .copyrightinfo {
+		display: inline-block;
+		margin: 0;
+	}
+	.footer_wrapper .footer_topwrapper {
+		margin: 0;
+		padding: 0 0 10px 0;
+	}
+	#menu {
+		margin-top: 20px;
+	}
+}
