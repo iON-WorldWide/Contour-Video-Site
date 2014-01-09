@@ -1188,14 +1188,14 @@ a.forgot_password:hover {
 		text-align: center;
 	}
 	.popular_videos {
-		margin-top: -90px;
+		margin-top: -50px;
 	}
 	.video_container {
 		margin-top: 15px;
 	}
 	div.footer-social {
 		display: inline-block;
-		margin: 0;
+		margin: 40px 0 0 0;
 	}
 	.footer_bottom .copyrightinfo {
 		display: inline-block;
@@ -1207,5 +1207,8 @@ a.forgot_password:hover {
 	}
 	#menu {
 		margin-top: 20px;
+	}
+	#menu-footer.footer_topmenu li {
+		width: 30%;
 	}
 }
