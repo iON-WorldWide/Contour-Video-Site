@@ -261,6 +261,10 @@
 		text-decoration: none;
 	}
 
+	#menu .ddsmoothmenu {
+		margin-top:5px;
+	}
+
 	#menu li a:hover, #menu li.current_page_item a {
 		color:#C6D94B;
 	}
