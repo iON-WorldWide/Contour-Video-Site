@@ -812,6 +812,11 @@ ol.commentlist li.comment .reply {
 	text-decoration: none;
 }
 
+.sidebar ul li:nth-of-type(n+4) {
+	display: none;
+}
+
+
 /* sign-up form
 ==================================================*/
 
