@@ -971,6 +971,10 @@ a.forgot_password:hover {
 	text-decoration: none;
 }
 
+.content-bar .post .post_title a:hover {
+	color:#5a5d5e !important;
+	text-decoration: none;
+}
 
 /* crumb-trail
 ==================================================*/
