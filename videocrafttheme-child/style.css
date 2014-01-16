@@ -975,6 +975,21 @@ a.forgot_password:hover {
 	color:#5a5d5e !important;
 	text-decoration: none;
 }
+.content-bar .post .post_content ul {
+	padding: 0 25px 0;
+}
+.content-bar .post .post_content ol {
+	padding: 0 25px 0;
+}
+.content-bar .post .post_content a {
+	color: #A0B03D;
+}
+.content-bar .post .post_content a:hover {
+	color: #444342;
+	text-decoration: none;
+}
+
+
 
 /* crumb-trail
 ==================================================*/
