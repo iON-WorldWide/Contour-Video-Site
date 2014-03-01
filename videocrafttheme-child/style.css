@@ -834,6 +834,9 @@
 		border-radius: 5px !important;
 	}
 
+	#reg_form input[type="text"] {
+		color: #444444 !important;
+	}
 
 	.signinForm input[type="submit"]:hover {
 		background-color: #bdcf47 !important;
